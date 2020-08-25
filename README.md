@@ -5,7 +5,7 @@
 Install through NPM:
 
 ```
-$ npm i --gobal blaseball-commentator
+$ npm i --global blaseball-commentator
 ```
 
 ## Usage

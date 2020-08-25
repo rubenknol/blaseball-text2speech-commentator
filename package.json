@@ -1,5 +1,5 @@
 {
-  "name": "blaseball-text2speech-commentator",
+  "name": "blaseball-commentator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rubenknol/blaseball-text2speech-commentator/issues"
   },
-  "homepage": "https://github.com/rubenknol/blaseball-text2speech-commentator#readme"
+  "homepage": "https://github.com/rubenknol/blaseball-text2speech-commentator#readme",
+  "dependencies": {
+    "eventsource": "^1.0.7"
+  },
+  "bin" : { "blaseball" : "./index.js" }
 }

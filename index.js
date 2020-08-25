@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const EventSource = require('eventsource');
 const Say = require('./say');
 

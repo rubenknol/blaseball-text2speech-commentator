@@ -2,13 +2,7 @@ const { promisify } = require('util');
 const Exec = promisify(require('child_process').exec);
 
 const internals = {
-  kCommand: 'say',
-
-  escapeQuotes(message) {
-
-    return message.replace(/'/g, "\\'")
-      .replace(/"/g, "\\\"");
-  }
+  kCommand: 'say'
 }
 
 // Takes a message as a string. Says it out loud.

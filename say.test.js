@@ -12,6 +12,6 @@ const internals = {
     console.debug('Running a string with quotes');
     await Say('The commissioner "is" doing \'a\' great job!');
   }
-}
+};
 
 internals.run();
